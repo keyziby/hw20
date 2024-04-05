@@ -1,7 +1,8 @@
-from django.core.management import BaseCommand
-from catalog.models import Category, Product
 import json
-from django.db import connection
+
+from django.core.management import BaseCommand
+
+from catalog.models import Category, Product
 
 
 class Command(BaseCommand):
